@@ -3,7 +3,7 @@ First project i made for fun lol :D
 # 🔥URL Scanner
 
 A super-efficient, async URL scanner that checks thousands of URLs from a file (.csv/.txt) for dead links (404s)
-This program can be use to clean a large list of URLs from broken ones.
+This program can be used to clean a large list of URLs from broken ones.
 
 ---
 
@@ -11,20 +11,22 @@ This program can be use to clean a large list of URLs from broken ones.
 
 - **Async scanning** with concurrency limit (default 15) for fast performance  
 - **Domain filtering** — scan all URLs or can target specific domains only from the file 
-- **CSV cleaning** — automatically remove dead URLs from your CSV (Optional) [BETA]
+- **File cleaning** — automatically remove dead URLs from your file (Optional) [BETA]
 - **Backup system** — backs up your original CSV before cleaning  
-- **Scan-Result Produces** — shows all dead Urls found
+- **Scan-Report Produced** — shows all dead Urls found
 - **Supports most Url's format** — http://, https://, www.
 - **Stealth headers** — mimics real browser requests for better detection bypassing most Web-security-bots 
 - **Progress bar** — live scan progress displayed with tqdm  
 - **Platform** — works on Windows, Linux  (Not tested on MacOS)
 - **Optimized for low hardware** — 
+  Scans 1000 words in 5 mins
+ (Tested on linux | i5-3rd gen | 4GB ram)
 
 ---
 
 ## ⚠️ Important Windows Users Notice
 
-Please note if you do not want to clean your file from dead urls and only want a scan and a ScanResult report, you may skip this step  :
+#Please note if you do not want to clean your file from dead urls and only want a scan and a ScanResult report, you may skip this step  :
 
 If you are running this on **Windows**, **disable** the **"Controlled Folder Access"** feature in **Windows Defender** **before running the cleaning step**.
 
@@ -43,7 +45,7 @@ You may re-enable this after the scan is completed
 2. Run `pip install -r requirements.txt` 
    OR  `py -m pip install -r requirements.txt` 
    OR  `python -m pip install -r requirements.txt` to install dependencies 
-3.⚠️run playwright install or py -m playwright install after⚠️ 
+3.⚠️run `playwright install` or `py -m playwright install`⚠️ 
 4. Start the scanner :
 
     ```bash
