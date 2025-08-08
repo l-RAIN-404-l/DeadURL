@@ -26,7 +26,7 @@ This program can be used to clean a large list of URLs from broken ones.
 
 ## ⚠️ Important Windows Users Notice
 
-# SKIP THIS STEP IF : you do not want to clean your file from dead urls and only want a scan and a Scan report generated
+## SKIP THIS STEP IF : you do not want to clean your file from dead urls and only want a scan and a Scan report generated
 
 If you are running this on **Windows**, **disable** the **"Controlled Folder Access"** feature in **Windows Defender** **before running the cleaning step**.
 
