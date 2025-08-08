@@ -92,7 +92,7 @@ You may re-enable this after the scan is completed
 ---
 
 ## 📜 License
-
+MIT-License
 
 
 ---
