@@ -1,11 +1,6 @@
 import subprocess
 import os
 import sys
-print("Checking Packages...")
-subprocess.run(["py", "-m", "playwright", "install"], check=True)
-def clear_console():
-    os.system('cls' if os.name == 'nt' else 'clear')
-clear_console()
 import pandas as pd
 import asyncio
 import shutil
