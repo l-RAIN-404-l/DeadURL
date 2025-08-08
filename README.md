@@ -42,8 +42,9 @@ You may re-enable this after the scan is completed
 1. Clone or download this repo  
 2. Run `pip install -r requirements.txt` 
    OR  `py -m pip install -r requirements.txt` 
-   OR  `python -m pip install -r requirements.txt` to install dependencies  
-3. Start the scanner :
+   OR  `python -m pip install -r requirements.txt` to install dependencies 
+3.⚠️run playwright install or py -m playwright install after⚠️ 
+4. Start the scanner :
 
     ```bash
     py DeadURL.py
@@ -53,7 +54,7 @@ You may re-enable this after the scan is completed
     python DeadURL.py
     ```
 
-4. When prompted:  
+5. When prompted:  
     - **Drop or enter the full path** to your CSV file  
     - **Optionally scan a specified domain** (or leave blank to scan all)  
     - **Choose whether to remove dead URLs** from the CSV after scan (y/n)  
