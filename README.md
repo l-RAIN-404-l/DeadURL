@@ -19,7 +19,7 @@ This program can be used to clean a large list of URLs from broken ones.
 - **Progress bar** — live scan progress displayed with tqdm  
 - **Platform** — works on Windows, Linux  (Not tested on MacOS)
 - **Optimized for low hardware** — 
-  Scans 1000 words in 5 mins
+  Scans 1000 links in 5 mins
  (Tested on linux | i5-3rd gen | 4GB ram)
 
 ---
