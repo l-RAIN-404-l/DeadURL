@@ -1,6 +1,6 @@
 First project i made for fun lol :D
 
-# 🔥URL Scanner
+# 🔥DeadURL
 
 A super-efficient, async URL scanner that checks thousands of URLs from a file (.csv/.txt) for dead links (404s)
 This program can be used to clean a large list of URLs from broken ones.
@@ -103,4 +103,5 @@ MIT-License
 ## 🤝 Contributions
 
 Pull requests and issues are welcome! 
+
 This project is still under development so issues may arise :(
